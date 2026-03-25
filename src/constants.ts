@@ -23,7 +23,7 @@ export const SERVICES = [
     id: 'cockroach',
     title: 'Cockroach Control in Chennai',
     description: 'Advanced gel and spray treatments to eliminate cockroach infestations and prevent future outbreaks in your home or office.',
-    image: 'public/cockroach2.png',
+    image: 'cockroach2.png',
   },
   {
     id: 'termite',
