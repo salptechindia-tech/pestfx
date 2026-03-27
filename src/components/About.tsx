@@ -16,7 +16,7 @@ const About = () => {
           >
             <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1584622781564-1d987f7333c1?auto=format&fit=crop&q=80&w=800" 
+                src="/public/pestfx3.png" 
                 alt="Professional pest control service in Chennai"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"

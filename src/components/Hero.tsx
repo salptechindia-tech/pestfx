@@ -43,9 +43,9 @@ const Hero = () => {
             <span className="inline-block px-4 py-1.5 mb-6 text-sm font-semibold tracking-wider text-blue-100 uppercase bg-blue-500/20 border border-blue-400/30 rounded-full backdrop-blur-sm">
               #1 Trusted Pest Control in Chennai
             </span>
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight mb-6">
-              Best Pest Control <br />
-              <span className="text-blue-400">Services in Chennai</span>
+            <h1 className="text-4xl md:text-6xl lg:text-6xl font-extrabold text-white leading-tight mb-6">
+             Total Pest Elimination<br />
+              <span className="text-blue-400"> Starts Here </span>
             </h1>
             <p className="text-lg md:text-xl text-blue-100 mb-8 max-w-2xl leading-relaxed">
               Safe, Effective & Affordable Pest Control Solutions Across Chennai & Tamil Nadu. We protect your home and business from unwanted guests.
@@ -78,7 +78,7 @@ const Hero = () => {
                 <Phone size={20} /> Call Now
               </a>
             </div>
-            
+            {/*
             <div className="mt-12 flex items-center gap-4">
               <div className="flex -space-x-3">
                 {[1, 2, 3, 4].map((i) => (
@@ -95,6 +95,7 @@ const Hero = () => {
                 <span className="font-bold text-white">5000+</span> Happy Customers in Chennai
               </p>
             </div>
+            */}
           </motion.div>
         </div>
       </div>

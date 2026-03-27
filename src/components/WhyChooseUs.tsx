@@ -53,8 +53,8 @@ const WhyChooseUs = () => {
             <div className="bg-white/5 backdrop-blur-lg p-8 rounded-3xl border border-white/10 shadow-2xl">
               <div className="grid grid-cols-2 gap-6">
                 <div className="bg-white/10 p-8 rounded-2xl text-center border border-white/5">
-                  <p className="text-4xl font-bold text-white mb-2">5k+</p>
-                  <p className="text-blue-300 text-sm font-medium">Happy Clients</p>
+                  <p className="text-4xl font-bold text-white mb-2">99%</p>
+                  <p className="text-blue-300 text-sm font-medium">Retention Rate</p>
                 </div>
                 <div className="bg-white/10 p-8 rounded-2xl text-center border border-white/5">
                   <p className="text-4xl font-bold text-white mb-2">15+</p>

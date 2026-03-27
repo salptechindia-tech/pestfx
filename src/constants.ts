@@ -65,7 +65,7 @@ export const SERVICES = [
     id: 'general',
     title: 'General Pest Control',
     description: 'A holistic approach to pest management covering all common pests for a safe and healthy living space in Tamil Nadu.',
-    image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=600',
+    image: 'public/pestfx2.png',
   },
 ];
 
@@ -96,13 +96,16 @@ export const CONTACT_INFO = {
   phone1: '9566233522',
   phone2: '9566233588',
   email: 'support@pestfx.in',
-  address: 'PESTFX INDA PRIVATE LIMITED, Plot No.7, Door No.8/A, Kannammal Nagar 1st Street, Valasaravakkam, Chennai 87',
+  address: 'PESTFX INDA PRIVATE LIMITED, Plot No.7, Door No.8/A, Kannammal Nagar 1st Street, Valasaravakkam, Chennai - 600 087',
   whatsapp: '9566233522',
 };
 
 export const HERO_IMAGES = [
-  'https://images.unsplash.com/photo-1586191582151-f73872dfd183?auto=format&fit=crop&q=80&w=1920', // Cockroach
-  'https://images.unsplash.com/photo-1628155930542-3c7a64e2c833?auto=format&fit=crop&q=80&w=1920', // Termite
-  'https://images.unsplash.com/photo-1576514120351-460980164627?auto=format&fit=crop&q=80&w=1920', // Mosquito
-  'https://images.unsplash.com/photo-1452723312111-3a7d0db0e024?auto=format&fit=crop&q=80&w=1920', // Rodent
+  // Cockroach
+  'public/pestfx1.png', // Termite
+  'public/pestfx2.png', // Mosquito
+  'public/ant1.png',
+  'public/termite1.png',
+  'public/rodent1.png', // Rodent
+  'public/Capture.png', 
 ];
