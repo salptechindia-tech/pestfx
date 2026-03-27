@@ -65,7 +65,7 @@ export const SERVICES = [
     id: 'general',
     title: 'General Pest Control',
     description: 'A holistic approach to pest management covering all common pests for a safe and healthy living space in Tamil Nadu.',
-    image: 'public/pestfx2.png',
+    image: 'pestfx2.png',
   },
 ];
 
@@ -102,10 +102,10 @@ export const CONTACT_INFO = {
 
 export const HERO_IMAGES = [
   // Cockroach
-  'public/pestfx1.png', // Termite
-  'public/pestfx2.png', // Mosquito
-  'public/ant1.png',
-  'public/termite1.png',
-  'public/rodent1.png', // Rodent
-  'public/Capture.png', 
+  'pestfx1.png', // Termite
+  'pestfx2.png', // Mosquito
+  'ant1.png',
+  'termite1.png',
+  'rodent1.png', // Rodent
+  'Capture.png', 
 ];
