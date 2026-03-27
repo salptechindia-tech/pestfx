@@ -107,5 +107,5 @@ export const HERO_IMAGES = [
   'ant1.png',
   'termite1.png',
   'rodent1.png', // Rodent
-  'Capture.png', 
+  'capture11.png', 
 ];
