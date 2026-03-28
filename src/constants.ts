@@ -106,6 +106,6 @@ export const HERO_IMAGES = [
   'pestfx2.png', // Mosquito
   'ant1.png',
   'termite1.png',
-  'rodent1.png', // Rodent
+  'rodent1.webp', // Rodent
   'capture11.png', 
 ];
