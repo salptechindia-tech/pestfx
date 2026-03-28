@@ -41,7 +41,7 @@ export const SERVICES = [
     id: 'rodent',
     title: 'Rodent Control',
     description: 'Strategic baiting and trapping methods to eliminate rats and mice, ensuring a hygienic and damage-free environment.',
-    image: 'rodent1.png',
+    image: 'rodent1.webp',
   },
   {
     id: 'fly',
