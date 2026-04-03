@@ -28,7 +28,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0 flex items-center">
             <img 
-              src={scrolled ? "/public/blue_logo_1.png" : "/public/white_logo_1.png"} 
+              src={scrolled ? "blue_logo_1.png" : "white_logo_1.png"} 
               alt="PESTFX Logo" 
               className="h-10 w-auto object-contain transition-all duration-300"
               referrerPolicy="no-referrer"

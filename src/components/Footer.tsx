@@ -11,7 +11,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-2 mb-6">
               <img 
-                src="/public/white_logo_1.png" 
+                src="white_logo_1.png" 
                 alt="PESTFX Logo" 
                 className="h-10 w-auto object-contain"
                 referrerPolicy="no-referrer"
