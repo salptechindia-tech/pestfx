@@ -15,19 +15,20 @@ const Hero = () => {
 
   return (
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
-      {/* Background Slider */}
       <div className="absolute inset-0 z-0">
         <AnimatePresence mode="wait">
           <motion.img
             key={currentImageIndex}
-            src={HERO_IMAGES[currentImageIndex]}
+            src={`/${HERO_IMAGES[currentImageIndex]}`}
             initial={{ opacity: 0, scale: 1.1 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 1.5, ease: "easeInOut" }}
+            transition={{ duration: 1.5, ease: 'easeInOut' }}
             alt="Pest control background"
             className="w-full h-full object-cover"
-            referrerPolicy="no-referrer"
+            loading="eager"
+            fetchPriority={currentImageIndex === 0 ? 'high' : 'low'}
+            decoding="async"
           />
         </AnimatePresence>
         <div className="absolute inset-0 bg-gradient-to-r from-blue-950/90 to-blue-900/60"></div>
@@ -43,10 +44,13 @@ const Hero = () => {
             <span className="inline-block px-4 py-1.5 mb-6 text-sm font-semibold tracking-wider text-blue-100 uppercase bg-blue-500/20 border border-blue-400/30 rounded-full backdrop-blur-sm">
               #1 Trusted Pest Control 
             </span>
+
             <h1 className="text-4xl md:text-6xl lg:text-6xl font-extrabold text-white leading-tight mb-6">
-             Total Pest Elimination<br />
+              Total Pest Elimination
+              <br />
               <span className="text-blue-400"> Starts Here </span>
             </h1>
+
             <p className="text-lg md:text-xl text-blue-100 mb-8 max-w-2xl leading-relaxed">
               Safe, Effective & Affordable Pest Control Solutions Across Tamil Nadu. We protect your home and business from unwanted guests.
             </p>
@@ -54,7 +58,7 @@ const Hero = () => {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10">
               {[
                 'Professional & Safe Treatments',
-                'Quick Response'
+                'Quick Response',
               ].map((item, index) => (
                 <div key={index} className="flex items-center gap-2 text-white/90">
                   <CheckCircle2 className="text-blue-400 shrink-0" size={20} />
@@ -68,8 +72,10 @@ const Hero = () => {
                 href="#contact"
                 className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-bold text-lg flex items-center justify-center gap-2 transition-all shadow-xl shadow-blue-900/20 group"
               >
-                Get Free Inspection <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
+                Get Free Inspection{' '}
+                <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
               </a>
+
               <a
                 href={`tel:${CONTACT_INFO.phone1}`}
                 className="px-8 py-4 bg-white/10 hover:bg-white/20 text-white border border-white/30 backdrop-blur-md rounded-xl font-bold text-lg flex items-center justify-center gap-2 transition-all"
@@ -99,7 +105,6 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Decorative Element */}
       <div className="absolute bottom-0 right-0 w-1/3 h-1/3 bg-blue-500/10 blur-[120px] rounded-full -mb-20 -mr-20"></div>
     </section>
   );

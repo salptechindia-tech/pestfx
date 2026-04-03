@@ -16,7 +16,7 @@ const About = () => {
           >
             <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl">
               <img 
-                src="pestfx3.png" 
+                src="pestfx3.webp" 
                 alt="Professional pest control service"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
