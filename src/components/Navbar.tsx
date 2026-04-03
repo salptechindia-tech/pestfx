@@ -27,11 +27,13 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0 flex items-center">
-            <span className={`text-3xl font-black tracking-tighter ${scrolled ? 'text-[#000080]' : 'text-white'}`}>
-              PESTFX
-            </span>
+            <img 
+              src={scrolled ? "/public/blue_logo_1.png" : "/public/white_logo_1.png"} 
+              alt="PESTFX Logo" 
+              className="h-10 w-auto object-contain transition-all duration-300"
+              referrerPolicy="no-referrer"
+            />
           </div>
-          
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
               {navLinks.map((link) => (

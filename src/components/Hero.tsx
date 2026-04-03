@@ -41,19 +41,18 @@ const Hero = () => {
             transition={{ duration: 0.6 }}
           >
             <span className="inline-block px-4 py-1.5 mb-6 text-sm font-semibold tracking-wider text-blue-100 uppercase bg-blue-500/20 border border-blue-400/30 rounded-full backdrop-blur-sm">
-              #1 Trusted Pest Control in Chennai
+              #1 Trusted Pest Control 
             </span>
             <h1 className="text-4xl md:text-6xl lg:text-6xl font-extrabold text-white leading-tight mb-6">
              Total Pest Elimination<br />
               <span className="text-blue-400"> Starts Here </span>
             </h1>
             <p className="text-lg md:text-xl text-blue-100 mb-8 max-w-2xl leading-relaxed">
-              Safe, Effective & Affordable Pest Control Solutions Across Chennai & Tamil Nadu. We protect your home and business from unwanted guests.
+              Safe, Effective & Affordable Pest Control Solutions Across Tamil Nadu. We protect your home and business from unwanted guests.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10">
               {[
-                'Serving Chennai & Tamil Nadu',
                 'Professional & Safe Treatments',
                 'Quick Response'
               ].map((item, index) => (
@@ -92,7 +91,7 @@ const Hero = () => {
                 ))}
               </div>
               <p className="text-blue-100 text-sm">
-                <span className="font-bold text-white">5000+</span> Happy Customers in Chennai
+                <span className="font-bold text-white">5000+</span> Happy Customers 
               </p>
             </div>
             */}

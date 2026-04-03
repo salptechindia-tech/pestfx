@@ -21,13 +21,13 @@ import {
 export const SERVICES = [
   {
     id: 'cockroach',
-    title: 'Cockroach Control in Chennai',
+    title: 'Cockroach Control',
     description: 'Advanced gel and spray treatments to eliminate cockroach infestations and prevent future outbreaks in your home or office.',
     image: 'cockroach2.png',
   },
   {
     id: 'termite',
-    title: 'Termite Treatment Chennai',
+    title: 'Termite Treatment',
     description: 'Comprehensive pre and post-construction termite control solutions using government-approved chemicals for long-lasting protection.',
     image: 'termite1.png',
   },
@@ -72,7 +72,7 @@ export const SERVICES = [
 export const WHY_CHOOSE_US = [
   {
     title: 'Experienced Technicians',
-    description: 'Our team consists of certified professionals with years of local expertise in Chennai.',
+    description: 'Our team consists of certified professionals with years of local expertise.',
     icon: Award,
   },
   {

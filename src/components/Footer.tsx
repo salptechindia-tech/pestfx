@@ -10,12 +10,15 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-6">
-              <span className="text-3xl font-black tracking-tighter text-white">
-                PESTFX
-              </span>
+              <img 
+                src="/public/white_logo_1.png" 
+                alt="PESTFX Logo" 
+                className="h-10 w-auto object-contain"
+                referrerPolicy="no-referrer"
+              />
             </div>
             <p className="text-gray-400 mb-8 leading-relaxed">
-              PESTFX INDIA PRIVATE LIMITED is a leading pest control service provider in Chennai and Tamil Nadu. We provide eco-friendly and safe solutions for homes and businesses.
+              PESTFX INDIA PRIVATE LIMITED is a leading pest control service provider in Tamil Nadu. We provide eco-friendly and safe solutions for homes and businesses.
             </p>
             <div className="flex gap-4">
               {[Facebook, Instagram, Twitter, Linkedin].map((Icon, i) => (
@@ -74,7 +77,7 @@ const Footer = () => {
           </p>
           <div className="flex items-center gap-2 text-gray-500 text-sm">
             <ShieldCheck size={16} className="text-blue-500" />
-            <span>Pest Control Chennai | Pest Control Tamil Nadu</span>
+            <span>Pest Control  | Pest Control Tamil Nadu</span>
           </div>
         </div>
       </div>

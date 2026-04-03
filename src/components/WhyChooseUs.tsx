@@ -71,7 +71,7 @@ const WhyChooseUs = () => {
               </div>
               
               <div className="mt-8 p-6 bg-blue-600 rounded-2xl text-center">
-                <p className="text-white font-bold text-lg mb-2 italic">"The best termite treatment in Chennai. Highly recommended!"</p>
+                <p className="text-white font-bold text-lg mb-2 italic">"The best termite treatment . Highly recommended!"</p>
                 <p className="text-blue-200 text-sm">- Rajesh Kumar, Adyar</p>
               </div>
             </div>

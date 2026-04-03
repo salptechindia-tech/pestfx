@@ -17,7 +17,7 @@ const About = () => {
             <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl">
               <img 
                 src="pestfx3.png" 
-                alt="Professional pest control service in Chennai"
+                alt="Professional pest control service"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
               />
@@ -40,13 +40,13 @@ const About = () => {
           >
             <span className="text-blue-600 font-bold tracking-wider uppercase text-sm mb-4 block">About PESTFX</span>
             <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6 leading-tight">
-              One of the most trusted <span className="text-blue-600">pest control service providers in Chennai</span>
+              One of the most trusted <span className="text-blue-600">pest control service providers</span>
             </h2>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              PESTFX INDIA PRIVATE LIMITED is a premier pest management company dedicated to providing reliable pest control services across Tamil Nadu. We understand the unique challenges posed by the tropical climate of Chennai and offer tailored solutions that work.
+              PESTFX INDIA PRIVATE LIMITED is a premier pest management company dedicated to providing reliable pest control services across Tamil Nadu. We understand the unique challenges posed by the tropical climate and offer tailored solutions that work.
             </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Our mission is to create pest-free environments for homes and businesses using advanced technology and eco-friendly methods. With a focus on safety, professionalism, and local expertise, we have become the go-to choice for thousands of residents in Chennai.
+              Our mission is to create pest-free environments for homes and businesses using advanced technology and eco-friendly methods. With a focus on safety, professionalism, and local expertise, we have become the go-to choice for thousands of residents across Tamil Nadu.
             </p>
 
             <div className="space-y-4 mb-10">
